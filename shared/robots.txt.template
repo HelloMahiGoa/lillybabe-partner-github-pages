@@ -1,0 +1,5 @@
+# Before deploy: replace YOUR-LIVE-DOMAIN below with your partner site URL (no trailing slash).
+User-agent: *
+Allow: /
+
+Sitemap: https://YOUR-LIVE-DOMAIN/sitemap.xml

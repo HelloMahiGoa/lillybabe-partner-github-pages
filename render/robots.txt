@@ -1,0 +1,6 @@
+﻿# Before deploy: replace YOUR-RENDER-DOMAIN.com below with your partner site URL (no trailing slash).
+User-agent: *
+Allow: /
+
+Sitemap: https://YOUR-RENDER-DOMAIN.com/sitemap.xml
+

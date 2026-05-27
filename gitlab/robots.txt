@@ -1,0 +1,6 @@
+﻿# Before deploy: replace YOUR-GITLAB-PAGES-DOMAIN.com below with your partner site URL (no trailing slash).
+User-agent: *
+Allow: /
+
+Sitemap: https://YOUR-GITLAB-PAGES-DOMAIN.com/sitemap.xml
+

@@ -1,0 +1,6 @@
+﻿# Before deploy: replace YOUR-VERCEL-DOMAIN.com below with your partner site URL (no trailing slash).
+User-agent: *
+Allow: /
+
+Sitemap: https://YOUR-VERCEL-DOMAIN.com/sitemap.xml
+

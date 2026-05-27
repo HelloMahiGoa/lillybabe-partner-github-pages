@@ -1,0 +1,6 @@
+﻿# Before deploy: replace YOUR-TIINY-DOMAIN.com below with your partner site URL (no trailing slash).
+User-agent: *
+Allow: /
+
+Sitemap: https://YOUR-TIINY-DOMAIN.com/sitemap.xml
+
