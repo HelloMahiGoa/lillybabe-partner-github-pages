@@ -15,6 +15,16 @@ gitlab/.git/
 infinityfree/.git/
 render/.git/
 tiiny/.git/
+amplify/.git/
+workers/.git/
+heliohost/.git/
+awardspace/.git/
+codeberg/.git/
+bitbucket/.git/
+statichost/.git/
+fly/.git/
+zeabur/.git/
+oracle/.git/
 
 # Local deploy CLI state
 **/.netlify/

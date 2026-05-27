@@ -23,29 +23,22 @@ One repo → one host. Do not cross-deploy variants.
 | [Cloudflare Pages](https://pages.cloudflare.com/) | Yes | `*.pages.dev` + custom domain | `cloudflare/` |
 | [Deno Deploy](https://deno.com/deploy) | Free tier | `*.deno.dev`, `*.deno.net` | `deno/` |
 | [InfinityFree](https://infinityfree.com/) | Free shared hosting | `*.infinityfreeapp.com`, `*.42web.io`, etc. | `infinityfree/` |
+| [AWS Amplify Hosting](https://aws.amazon.com/amplify/) | Free tier (12 mo / limits) | `*.amplifyapp.com` | `amplify/` |
+| [Cloudflare Workers Sites](https://developers.cloudflare.com/workers/) | Free allowance | `*.workers.dev` | `workers/` |
+| [HelioHost](https://www.heliohost.org/) | Yes | Subdomain | `heliohost/` |
+| [AwardSpace](https://www.awardspace.com/) | Yes | Subdomain | `awardspace/` |
+| [Codeberg Pages](https://docs.codeberg.org/pages/) | Yes | `*.codeberg.page` | `codeberg/` |
+| [Bitbucket Pages](https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/) | Yes | `*.bitbucket.io` | `bitbucket/` |
+| [Statichost.eu](https://statichost.eu/) | Yes | Custom subdomain | `statichost/` |
+| [Fly.io](https://fly.io/docs/about/pricing/) | Free allowance | `*.fly.dev` | `fly/` |
+| [Zeabur](https://zeabur.com/) | Free tier | `*.zeabur.app` | `zeabur/` |
+| [Oracle Cloud Always Free](https://www.oracle.com/cloud/free/) | Always free VPS | Your domain | `oracle/` |
 
-Deploy steps for each: see [DEPLOY.md](DEPLOY.md).
-
----
-
-## Other free options (not yet in repo)
-
-| Platform | Free tier | URL pattern | Notes |
-|----------|-----------|-------------|--------|
-| [AWS Amplify Hosting](https://aws.amazon.com/amplify/) | Free tier (12 mo / limits) | `*.amplifyapp.com` | Git connect; good AWS ecosystem fit |
-| [Cloudflare Workers Sites](https://developers.cloudflare.com/workers/) | Free allowance | Custom domain | More setup than Pages; edge workers |
-| [HelioHost](https://www.heliohost.org/) | Yes | Subdomain | Free shared hosting; FTP like InfinityFree |
-| [AwardSpace](https://www.awardspace.com/) | Yes | Subdomain | Free PHP + static; FTP upload |
-| [Codeberg Pages](https://docs.codeberg.org/pages/) | Yes | `*.codeberg.page` | Git-native; EU-hosted alternative to GitHub Pages |
-| [Bitbucket Pages](https://support.atlassian.com/bitbucket-cloud/docs/publishing-a-website-on-bitbucket-cloud/) | Yes | `*.bitbucket.io` | Static sites from Bitbucket repos |
-| [Statichost.eu](https://statichost.eu/) | Yes | Custom subdomain | EU GDPR-friendly static hosting |
-| [Fly.io](https://fly.io/docs/about/pricing/) | Free allowance | `*.fly.dev` | Static via minimal Dockerfile or nginx |
-| [Zeabur](https://zeabur.com/) | Free tier | `*.zeabur.app` | Git deploy; static + serverless |
-| [Oracle Cloud Always Free](https://www.oracle.com/cloud/free/) | Always free VPS | Your domain | Self-host nginx/Caddy on ARM VM (not managed static) |
+Deploy steps for live variants: see [DEPLOY.md](DEPLOY.md). New variants are in repo only until you deploy manually.
 
 ---
 
-## Live URLs (project)
+## Live URLs (deployed)
 
 | Variant | Status | URL |
 |---------|--------|-----|
@@ -61,3 +54,20 @@ Deploy steps for each: see [DEPLOY.md](DEPLOY.md).
 | Cloudflare | Live | https://lillybabe-partner-cloudflare.pages.dev/ |
 | Deno Deploy | Live | https://lillybabe-dk7226c4ec8k.lillybabe.deno.net/ |
 | InfinityFree | Live | https://lillybabe.xo.je/ |
+
+---
+
+## In repo, not deployed yet
+
+| Variant | Repo (GitHub) | Folder |
+|---------|---------------|--------|
+| AWS Amplify | [lillybabe-partner-amplify](https://github.com/HelloMahiGoa/lillybabe-partner-amplify) | `amplify/` |
+| Cloudflare Workers | [lillybabe-partner-workers](https://github.com/HelloMahiGoa/lillybabe-partner-workers) | `workers/` |
+| HelioHost | [lillybabe-partner-heliohost](https://github.com/HelloMahiGoa/lillybabe-partner-heliohost) | `heliohost/` |
+| AwardSpace | [lillybabe-partner-awardspace](https://github.com/HelloMahiGoa/lillybabe-partner-awardspace) | `awardspace/` |
+| Codeberg Pages | [lillybabe-partner-codeberg](https://github.com/HelloMahiGoa/lillybabe-partner-codeberg) | `codeberg/` |
+| Bitbucket Pages | [lillybabe-partner-bitbucket](https://github.com/HelloMahiGoa/lillybabe-partner-bitbucket) | `bitbucket/` |
+| Statichost.eu | [lillybabe-partner-statichost](https://github.com/HelloMahiGoa/lillybabe-partner-statichost) | `statichost/` |
+| Fly.io | [lillybabe-partner-fly](https://github.com/HelloMahiGoa/lillybabe-partner-fly) | `fly/` |
+| Zeabur | [lillybabe-partner-zeabur](https://github.com/HelloMahiGoa/lillybabe-partner-zeabur) | `zeabur/` |
+| Oracle (VPS) | [lillybabe-partner-oracle](https://github.com/HelloMahiGoa/lillybabe-partner-oracle) | `oracle/` |
