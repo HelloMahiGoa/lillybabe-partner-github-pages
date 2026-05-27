@@ -1,6 +1,4 @@
-﻿# Before deploy: replace YOUR-NETLIFY-DOMAIN.com below with your partner site URL (no trailing slash).
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-NETLIFY-DOMAIN.com/sitemap.xml
-
+Sitemap: https://lillybabe-partner-netlify.netlify.app/sitemap.xml

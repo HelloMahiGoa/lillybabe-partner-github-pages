@@ -1,6 +1,0 @@
-﻿# Before deploy: replace YOUR-NEOCITIES-DOMAIN.com below with your partner site URL (no trailing slash).
-User-agent: *
-Allow: /
-
-Sitemap: https://YOUR-NEOCITIES-DOMAIN.com/sitemap.xml
-

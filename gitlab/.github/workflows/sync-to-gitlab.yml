@@ -1,0 +1,21 @@
+name: Deploy to GitLab Pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Push to GitLab.com (Pages CI runs on GitLab)
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          if [ -z "$GITLAB_TOKEN" ]; then
+            echo "Create hellomahi/lillybabe-partner-gitlab on GitLab.com, then add GITLAB_TOKEN (glpat- with api + write_repository)."
+            exit 1
+          fi
+          git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@gitlab.com/hellomahi/lillybabe-partner-gitlab.git" || true
+          git push gitlab HEAD:main --force

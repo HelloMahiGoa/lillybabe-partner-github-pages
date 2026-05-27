@@ -1,6 +1,4 @@
-﻿# Before deploy: replace YOUR-SURGE-DOMAIN.com below with your partner site URL (no trailing slash).
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-SURGE-DOMAIN.com/sitemap.xml
-
+Sitemap: https://lillybabe-partner-surge.surge.sh/sitemap.xml

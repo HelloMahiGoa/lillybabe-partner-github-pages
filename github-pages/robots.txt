@@ -1,6 +1,4 @@
-﻿# Before deploy: replace YOUR-GITHUB-PAGES-DOMAIN.com below with your partner site URL (no trailing slash).
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-GITHUB-PAGES-DOMAIN.com/sitemap.xml
-
+Sitemap: https://hellomahigoa.github.io/lillybabe-partner-github-pages/sitemap.xml

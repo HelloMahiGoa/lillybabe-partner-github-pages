@@ -5,3 +5,17 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.log
+
+# Each platform/ folder is also its own GitHub repo
+azure/.git/
+cloudflare/.git/
+deno/.git/
+firebase/.git/
+gitlab/.git/
+infinityfree/.git/
+render/.git/
+tiiny/.git/
+
+# Local deploy CLI state
+**/.netlify/
+tiiny/assets.zip

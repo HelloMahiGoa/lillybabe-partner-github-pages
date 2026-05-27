@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- Before deploy: replace YOUR-RENDER-DOMAIN.com with your partner site URL -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR-RENDER-DOMAIN.com/</loc>
+    <loc>https://lillybabe-partner-render.onrender.com/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 </urlset>
-

@@ -1,0 +1,25 @@
+name: Deploy to Tiiny Host
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zip and upload
+        env:
+          TIINY_API_KEY: ${{ secrets.TIINY_API_KEY }}
+        run: |
+          if [ -z "$TIINY_API_KEY" ]; then
+            echo "Add TIINY_API_KEY from https://tiiny.host/manage/account (Solo plan+)."
+            exit 1
+          fi
+          sudo apt-get update -qq && sudo apt-get install -y -qq zip
+          zip -r site.zip . -x ".git/*" ".github/*"
+          curl -fsS -X POST "https://api.tiiny.host/v1/upload" \
+            -H "Authorization: Bearer $TIINY_API_KEY" \
+            -F "file=@site.zip" \
+            -F "domain=lillybabe-partner-tiiny"

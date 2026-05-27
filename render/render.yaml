@@ -1,0 +1,7 @@
+services:
+  - type: static_site
+    name: lillybabe-partner-render
+    repo: https://github.com/HelloMahiGoa/lillybabe-partner-render
+    branch: main
+    buildCommand: ""
+    staticPublishPath: .

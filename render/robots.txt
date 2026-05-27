@@ -1,6 +1,4 @@
-﻿# Before deploy: replace YOUR-RENDER-DOMAIN.com below with your partner site URL (no trailing slash).
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-RENDER-DOMAIN.com/sitemap.xml
-
+Sitemap: https://lillybabe-partner-render.onrender.com/sitemap.xml
